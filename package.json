@@ -2,7 +2,7 @@
     "name": "ccash-vscode",
     "displayName": "Ccash",
     "description": "CCash for Visual Studio Code",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "publisher": "Blond11516",
     "license": "SEE LICENSE IN LICENSE.md",
     "repository": {
