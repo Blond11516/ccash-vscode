@@ -2,7 +2,7 @@
     "name": "ccash-vscode",
     "displayName": "Ccash",
     "description": "CCash for Visual Studio Code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.42.0"
     },
