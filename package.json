@@ -4,6 +4,7 @@
     "description": "CCash for Visual Studio Code",
     "version": "0.0.4",
     "publisher": "Blond11516",
+    "license": "SEE LICENSE IN LICENSE.md",
     "engines": {
         "vscode": "^1.42.0"
     },
