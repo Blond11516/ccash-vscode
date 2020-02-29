@@ -1,0 +1,34 @@
+{
+    "name": "ccash-vscode",
+    "displayName": "Ccash",
+    "description": "CCash for Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "ccash",
+                "aliases": [
+                    "C$",
+                    "ccash"
+                ],
+                "extensions": [
+                    ".ccash"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ccash",
+                "scopeName": "source.ccash",
+                "path": "./syntaxes/ccash.tmLanguage.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,167 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "C$",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#operators"
+		},
+		{
+			"include": "#punctuations"
+		},
+		{
+			"include": "#types"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#constants"
+		},
+		{
+			"include": "#source"
+		}
+	],
+	"repository": {
+		"comments": {
+			"name": "comment.ccash",
+			"patterns": [
+				{
+					"name": "comment.line.double-slash.ccash",
+					"begin": "//",
+					"end": "\\n"
+				},
+				{
+					"name": "comment.block.ccash",
+					"begin": "/\\*",
+					"end": "\\*/"
+				}
+			]
+		},
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.ccash",
+					"match": "\\b(if|while|for|return|else|do|repeat)\\b"
+				},
+				{
+					"name": "keyword.other.class.ccash",
+					"match": "\\bclass\\b"
+				},
+				{
+					"name": "keyword.other.func.ccash",
+					"match": "\\bfunc\\b"
+				}
+			]
+		},
+		"operators": {
+			"name": "keyword.operator.ccash",
+			"patterns": [
+				{
+					"name": "keyword.operator.relational.ccash",
+					"match": "<=|>=|==|!=|<|>"
+				},
+				{
+					"name": "keyword.operator.logical.ccash",
+					"match": "!|\\|\\||&&"
+				},
+				{
+					"name": "keyword.operator.assignment.ccash",
+					"match": ":=:|:="
+				},
+				{
+					"name": "keyword.operator.assignment.compound.ccash",
+					"match": "\\+=|-=|/=|\\*=|=%"
+				},
+				{
+					"name": "keyword.operator.assignment.compound.bitwise.ccash",
+					"match": "&=|\\|="
+				},
+				{
+					"name": "keyword.operator.arithmetic.ccash",
+					"match": "\\+|-|/|\\*|%"
+				},
+				{
+					"name": "keyword.operator.bitwise.ccash",
+					"match": "\\||&"
+				}
+			]
+		},
+		"punctuations": {
+			"name": "punctuation.ccash",
+			"patterns": [
+				{
+					"name": "punctuation.parenthesis.open.ccash",
+					"match": "\\("
+				},
+				{
+					"name": "punctuation.parenthesis.close.ccash",
+					"match": "\\)"
+				},
+				{
+					"name": "punctuation.squarebracket.close.ccash",
+					"match": "\\["
+				},
+				{
+					"name": "punctuation.squarebracket.close.ccash",
+					"match": "\\]"
+				},
+				{
+					"name": "punctuation.curlybracket.close.ccash",
+					"match": "\\}"
+				},
+				{
+					"name": "punctuation.curlybracket.close.ccash",
+					"match": "\\{"
+				},
+				{
+					"name": "punctuation.terminator.statement.ccash",
+					"match": ";"
+				}
+			]
+		},
+		"types": {
+			"name": "keyword.type.ccash",
+			"patterns": [
+				{
+					"name": "keyword.type.haha.ccash",
+					"match": "\\bu?(int(8|16|32|64)|float(8|16|32|64)|bool|string)\\b"
+				},
+				{
+					"name": "keyword.type.mutability.ccash",
+					"match": "\\b(mut|const)\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.ccash",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.ccash",
+					"match": "\\\\."
+				}
+			]
+		},
+		"constants": {
+			"content-name": "constant.ccash",
+			"patterns": [
+				{
+					"name": "constant.numeric.decimal.ccash",
+					"match": "\\b-?\\d+(\\.\\d+)?\\b"
+				},
+				{
+					"name": "constant.language.bool.ccash",
+					"match": "\\b(true|false)\\b"
+				}
+			]
+		}
+	},
+	"scopeName": "source.ccash"
+}
