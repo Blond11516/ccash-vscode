@@ -5,6 +5,11 @@
     "version": "0.0.5",
     "publisher": "Blond11516",
     "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Blond11516/ccash-vscode.git"
+    },
+    "homepage": "https://github.com/Blond11516/ccash-vscode",
     "engines": {
         "vscode": "^1.42.0"
     },
