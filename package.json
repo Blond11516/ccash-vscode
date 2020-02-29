@@ -3,6 +3,7 @@
     "displayName": "Ccash",
     "description": "CCash for Visual Studio Code",
     "version": "0.0.2",
+    "publisher": "Blond11516",
     "engines": {
         "vscode": "^1.42.0"
     },
