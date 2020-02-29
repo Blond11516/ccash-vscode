@@ -1,4 +1,4 @@
-# ccash README
+# C# VS Code
 
 This is the README for your extension "ccash". After writing up a brief description, we recommend including the following sections.
 
