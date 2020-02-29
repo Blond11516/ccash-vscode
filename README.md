@@ -1,6 +1,6 @@
 # C# VS Code
 
-This extension adds support for the C$ language. This is used and was build for the **IFT580 Compiler** class at [Université de Sherbrooke](https://www.usherbrooke.ca/).
+This extension adds support for the C$ language. This is used and was build for the [IFT580 Compiler](https://www.usherbrooke.ca/admission/fiches-cours/ift580/compilation-et-interpretation-des-langages/) class at [Université de Sherbrooke](https://www.usherbrooke.ca/).
 
 ## Features
 
