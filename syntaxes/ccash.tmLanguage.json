@@ -47,7 +47,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.ccash",
-					"match": "\\b(if|while|for|return|else|do|repeat)\\b"
+					"match": "\\b(if|while|for|return|else|do|repeat|switch|case|default)\\b"
 				},
 				{
 					"name": "keyword.other.class.ccash",
@@ -56,6 +56,14 @@
 				{
 					"name": "keyword.other.func.ccash",
 					"match": "\\bfunc\\b"
+				},
+				{
+					"name": "keyword.other.break.ccash",
+					"match": "break"
+				},
+				{
+					"name": "keyword.other.fallthrough.ccash",
+					"match": "fallthrough"
 				}
 			]
 		},
